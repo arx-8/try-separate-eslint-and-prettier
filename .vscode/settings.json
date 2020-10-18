@@ -1,5 +1,19 @@
 {
     "files.eol": "\n",
     "files.encoding": "utf8",
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+    /**
+    * Extensions
+    */
+    /** dbaeumer.vscode-eslint */
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
 }

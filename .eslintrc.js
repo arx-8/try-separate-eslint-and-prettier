@@ -12,7 +12,10 @@ module.exports = {
     "prettier/standard",
     "prettier/@typescript-eslint",
   ],
-  plugins: [],
+  plugins: [
+    // CI で warn も検知可能にするため、全て error にする
+    "only-error",
+  ],
   rules: {
     "prettier/prettier": [
       "error",
